@@ -1,0 +1,64 @@
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 72px;
+    Color: Black;
+    font-weight:lighter;
+    text-align: center;
+    margin-bottom: -25px;
+}
+.topnav{
+    background-color: transparent;
+    text-align: center;
+   
+}
+.topnav ul{
+    display: inline-block;
+}
+.topnav a{
+
+    text-align: center;
+    font-family: 'open-sans', sans-serif;
+    color: black;
+    font-size: 16px;
+    padding: 5px;
+    padding-right:15px;
+    padding-left: 15px;
+    margin:10px;
+    text-decoration: none;
+
+}
+.topnav a:hover{
+    background-color:lightgray;
+    color:black;
+}
+h5{
+    font-family: 'open sans', sans-serif;
+    font-weight:normal;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+
+.column{
+    float:left;
+    width:32%;
+    padding:10px;
+
+}
+.me{
+    max-width: 30%;
+    padding-left: 50px;
+    padding: 50px;
+}
+p{
+    font-family: "open-san" , sans-serif;
+    font-size: 24px;
+    color: black;
+    max-width: 50%;
+    float: right;
+    padding-right: 200px;
+    padding-top:50px;
+  
+
+
+}
