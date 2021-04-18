@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<html>
+    <head>
+        <meta charset= "utf-8">
+        <title>About</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
+    </head>
+    <body> 
+        <header> 
+            <h1>SAV OEHME </h1>
+            <h5>photography and design</h5>
+            <hr>
+        </header>
+        <navigation>
+            <div class= "topnav">
+                 <a href="index.html">Home</a>
+                <a href="photography.html">Photography</a>
+                <a href="design.html">Design</a>
+                <a href="shop.html">Shop</a>
+                <a href="about.html">About </a>
+                <a class="active" href="contact.html">Contact </a>
+         </navigation>
+    </div>
+        <content>
+            <form>
+                <form action="welcome.php" method="post">
+                <label for="fname">First name:</label>
+                <input type="text" name="fname">
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="email">e-mail:</label>
+                <input type="text" name="email"><br>
+                <input type="radio" id="photography" name="service" value="photography">
+                <label for="photography">Photography</label>
+                <input type="radio" id="design" name="design" value="design">
+                <label for="design" >Design</label>
+                <input type="radio" id="other" name="other" value="other">
+                <label for="other">Other</label><br>
+                <input type="text" name="message">
+                <label for="message">Message</label>
+                <input type="submit" value="submit">
+
+            </form>
+        
+        </content>
+        
+ </body>
+</html>
