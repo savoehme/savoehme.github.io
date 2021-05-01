@@ -65,7 +65,6 @@ container a:visited{
     left: 20px;
     background-color: rgba(0, 0, 0, 0.5);
     border: solid 1px white;
-    padding: 10px;
 
 }
 
@@ -75,7 +74,6 @@ container a:visited{
     left:50%;
     background-color: rgba(0, 0, 0, 0.5);
     border: solid 1px white;
-    padding: 10px;
 
 }
 .center-right{
@@ -84,9 +82,17 @@ container a:visited{
     right:20px;
     background-color: rgba(0, 0, 0, 0.5);
     border: solid 1px white;
-    padding: 10px;
 
 }
+@media screen and (max-width: 600px){
+   .center-left,.center-right,.center{
+        position: relative;
+        left:0pc;
+        margin:10px;
+       
+   }
+}
+
 .content{
     display: inline-block;
     flex-wrap: wrap;
@@ -121,10 +127,9 @@ container a:visited{
     padding: 0 4px;
 } 
 .column{
-    flex:33%
+    flex:33%;
     max-width: 33%;
     padding: 5px;
-
 }
 
 .column img{
