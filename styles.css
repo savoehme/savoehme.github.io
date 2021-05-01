@@ -1,3 +1,4 @@
+
 h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 72px;
@@ -38,10 +39,69 @@ h5{
     color: black;
     text-align: center;
 }
+
+.container{
+    position: relative;
+    text-align: center;
+    font-family: 'open sans', sans-serif;
+    font: 'open sans', sans-serif;
+    font-size: 48px; 
+    text-decoration: none;
+    margin-top: 50px;
+}
+.container a{
+    color: white;
+}
+.container a:hover{
+    color: grey;
+    
+}
+container a:visited{
+    color: white;
+}
+.center-left{
+    position:absolute;
+    bottom: 50%;
+    left: 20px;
+    border: solid 1px white;
+    padding: 10px;
+
+}
+
+.center{
+    position:absolute;
+    bottom: 50%;
+    left:50%;
+    border: solid 1px white;
+    padding: 10px;
+
+}
+.center-right{
+    position: absolute;
+    bottom: 50%;
+    right:20px;
+    border: solid 1px white;
+    padding: 10px;
+
+}
 .content{
-    display: flex;
+    display: inline-block;
     flex-wrap: wrap;
     padding: 5px;
+}
+.content img{
+    float: left;
+}
+@media screen and (max-width: 600px){
+    .content{
+        display: flex;
+        
+    }
+    .content img{
+        width: 100%;
+        max-width: 100%;
+    }
+    
 }
 .column{
     flex:30%;
@@ -52,27 +112,65 @@ h5{
     vertical-align: middle;
     
 }
-.gallery{
+.row{
     display: flex;
     flex-wrap: wrap;
-    padding: 0 5px;
-}
+    padding: 0 4px;
+} 
 .column{
-    flex: 30%;
-    max-width: 33.33%;
+    flex:33%
+    max-width: 33%;
     padding: 5px;
 
 }
+
 .column img{
     margin-top: 5px;
     width: 100%;
     vertical-align: middle;
 }
+.content{
+    position: relative;
+    width: 100%;
+    
+    
+}
 @media screen and (max-width: 800px){
     .column{
-        flex: 50%;
-        max-width:50%;
+        flex:48%;
+        max-width: 48%;
+
     }
+}
+@media screen and (max-width: 600px){
+    .column{
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+.image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.overlay{
+    position:relative;
+    margin-left: 30%;
+    bottom: 50%;
+    background: black;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 20%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 24px;
+    padding:20px;
+    text-align: center;
+}
+.content:hover .overlay{
+    opacity: 1;
 }
 .row{
     padding: 20px;
@@ -110,3 +208,5 @@ textarea{
     width: 100%;
     height: 300px;
 }
+
+
