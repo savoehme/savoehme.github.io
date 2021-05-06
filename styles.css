@@ -164,17 +164,12 @@ container a:visited{
 }
 .overlay{
     position:relative;
-    margin-left: 30%;
-    bottom: 50%;
-    background: black;
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
-    width: 20%;
     transition: .5s ease;
     opacity: 0;
     color: white;
     font-size: 24px;
-    padding:20px;
     text-align: center;
 }
 .content:hover .overlay{
@@ -183,12 +178,13 @@ container a:visited{
 .row{
     padding: 20px;
 }
-.me{
+.about img{
     max-width: 30%;
     float: left;
     padding: 50px;
     padding-top: 10px;
 }
+
 
 p{
     font-family: "open-sans" , sans-serif;
@@ -211,6 +207,7 @@ p{
 input[type=text]{
     border: 1px solid black;
     width: 100%;
+    
 }
 textarea{
     width: 100%;
